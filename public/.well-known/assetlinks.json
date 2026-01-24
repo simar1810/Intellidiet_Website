@@ -6,9 +6,9 @@
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.wellnessz.aaharsutra",
+      "package_name": "com.wellnessz.inteli",
       "sha256_cert_fingerprints": [
-        "52:42:B2:7E:21:24:11:20:03:73:29:1C:37:F1:1B:6C:DB:39:C9:A2:DC:66:32:8E:6A:33:59:38:E5:21:B7:64"
+        "3B:11:CE:4E:2D:4F:E1:39:BD:B3:81:4F:C3:16:C0:A5:2B:B3:5C:84:D7:E0:6E:DF:1F:6F:9E:C5:F2:E7:E7:77"
       ]
     }
   }
