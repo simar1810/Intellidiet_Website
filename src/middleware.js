@@ -16,11 +16,11 @@ export function middleware(request) {
 
   const userAgent = request.headers.get('user-agent') || '';
 
-  if (IOS_REGEX.test(userAgent)) {
+  if (IOS_REGEX.test(userAgent) && APP_STORE_URL) {
     return NextResponse.redirect(APP_STORE_URL, { status: 302 });
   }
 
-  if (ANDROID_REGEX.test(userAgent)) {
+  if (ANDROID_REGEX.test(userAgent) && PLAY_STORE_URL) {
     return NextResponse.redirect(PLAY_STORE_URL, { status: 302 });
   }
 
